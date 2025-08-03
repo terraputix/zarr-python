@@ -11,6 +11,7 @@ exclude = [
 
 [project]
 name = "zarr"
+version = "3.1.1+8f40aaf"
 description = "An implementation of chunked, compressed, N-dimensional arrays for Python"
 readme = { file = "README.md", content-type = "text/markdown" }
 authors = [
@@ -39,9 +40,6 @@ dependencies = [
     'donfig>=0.8',
 ]
 
-dynamic = [
-  "version",
-]
 classifiers = [
     'Development Status :: 6 - Mature',
     'Intended Audience :: Developers',
